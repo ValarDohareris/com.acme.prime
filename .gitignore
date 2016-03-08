@@ -1,4 +1,6 @@
-.gradle/
 /generated/
-enroute.zip
-.metadata
+/bin/
+/bin_test/
+/eval
+*.jar
+/.gradle

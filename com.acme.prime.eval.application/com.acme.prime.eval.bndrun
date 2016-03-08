@@ -1,0 +1,17 @@
+#
+#  RUN SPECIFICATION
+#
+
+
+Bundle-Version:				1.0.0.${tstamp}
+Bundle-SymbolicName:		com.acme.prime.eval.application.launch
+JPM-Command:					eval
+
+
+-runfw:						org.eclipse.osgi
+
+-runrequires:  \
+	osgi.identity;filter:='(osgi.identity=com.acme.prime.eval.application)'
+
+-runbundles: \
+	${error;Resolve first}
